@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS positions</title>
+
+    <style>
+
+        .swim-container
+        {
+            position: absolute;
+            border: 2px solid maroon;
+        }
+        .box
+        {
+            border: 2px solid maroon;
+            width: 200px;
+            padding: 10px;
+        }
+
+        /* .ring
+        {
+            position: relative;  
+            left: 50em;
+            top: 50px;
+            
+        } */
+         
+/*         
+        .ring
+        {
+         position: absolute;
+
+         left: 50px;
+         top :10px;
+
+        
+        } */
+
+        /* .ring
+    {
+        position: fixed;
+        left: 60px;
+    } */
+
+    .dummy
+    {
+        border: 1px solid red;
+        width: 250px;
+        height:300px;
+    }
+
+    .dummy2
+    {
+        border: 2px solid maroon;
+        width: 250px;
+        height: 300px;
+    }
+
+    .ring
+    {
+      position:sticky;
+      top:20px;
+      left: 20px;
+    }
+    </style>
+</head>
+<body>
+    <main>
+        <h3>CSS positions</h3>
+        <ol>
+            <li>Static</li>
+            <li>relative <small>Will move from currrent position in relative & will not leave the current spot</small></li>
+            <li>absolute <small>It will move from it's root for Top & Bottom position, & left & right it will move from current state,  It will lose it's own positions. On the other hand if we use it on container then it will move from the container position</small></li>
+            <li>fixed</li>
+            <li>sticky</li>
+            
+
+        </ol>
+
+
+        <div class="swim-container">
+            <div class="box boy">
+                <img src="images/boy.svg" alt="">
+            </div>
+
+            <div class="box ring">
+                <img src="images/ring.svg" alt="">
+            </div>
+
+            <div class="box water">
+                <img src="images/water.svg" alt="">
+            </div>
+
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+            <div class="dummy"></div>
+
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        <div class="dummy2"></div>
+        </div>
+
+    </main>
+</body>
+</html>
