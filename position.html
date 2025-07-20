@@ -14,11 +14,24 @@
         }
         .box
         {
-            border: 2px solid maroon;
-            width: 200px;
-            padding: 10px;
+            position: relative;
         }
 
+        .boy
+        {
+          z-index: 1;
+        }
+        
+        .ring
+        {
+            top: -70px;
+        }
+
+        .water
+        {
+            top: -150px;
+            z-index:-1;
+        }
         /* .ring
         {
             position: relative;  
@@ -44,7 +57,7 @@
         left: 60px;
     } */
 
-    .dummy
+    /* .dummy
     {
         border: 1px solid red;
         width: 250px;
@@ -56,14 +69,11 @@
         border: 2px solid maroon;
         width: 250px;
         height: 300px;
-    }
+    } */
 
-    .ring
-    {
-      position:sticky;
-      top:20px;
-      left: 20px;
-    }
+ 
+
+    
     </style>
 </head>
 <body>
@@ -92,7 +102,7 @@
             <div class="box water">
                 <img src="images/water.svg" alt="">
             </div>
-
+<!-- 
             <div class="dummy"></div>
             <div class="dummy"></div>
             <div class="dummy"></div>
@@ -143,7 +153,7 @@
         <div class="dummy2"></div>
         <div class="dummy2"></div>
         <div class="dummy2"></div>
-        <div class="dummy2"></div>
+        <div class="dummy2"></div> -->
         </div>
 
     </main>
